@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
-    "@fearless/fearless": "^0.1.0-beta.12"
+    "@fearless/fearless": "^0.1.0-beta.12",
+    "@fearless/json": "^0.1.0"
   }
 }

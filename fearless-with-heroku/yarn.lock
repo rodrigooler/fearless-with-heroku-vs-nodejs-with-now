@@ -9,6 +9,11 @@
   dependencies:
     uWebSockets.js "github:uNetworking/uWebSockets.js#v15.10.0"
 
+"@fearless/json@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@fearless/json/-/json-0.1.0.tgz#fe2eb49c7d2ba61a421878f5c5282a3d0619a812"
+  integrity sha512-34PGSvnbUV+ZyACFd26HuVd2ZkvGS9yWQ+vMUnPFSuNvgnj1KAGrHP5iCQydM+c6H1U3bt+NeMhB7Wd6/fna9w==
+
 "uWebSockets.js@github:uNetworking/uWebSockets.js#v15.10.0":
   version "15.10.0"
   resolved "https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/db6a5f22ebb348ef328ff1fcbdc639f7bff49e11"
