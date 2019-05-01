@@ -1,5 +1,9 @@
+require('dotenv/config')
+
 const { fearless, get, post, send, sendAsync } = require("@fearless/fearless");
 const json = require("@fearless/json");
+
+console.log('PORT', process.env.PORT || 3000);
 
 const options = {
   handlers: [
@@ -14,7 +18,7 @@ const options = {
     })
   ],
   listen: {
-    port: process.env.PORT,
+    port: process.env.PORT || 3000,
     handler: () => {}
   }
 };

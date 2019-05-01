@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@fearless/fearless": "^0.1.0-beta.12",
-    "@fearless/json": "^0.1.0"
+    "@fearless/json": "^0.1.0",
+    "dotenv": "^7.0.0"
   }
 }
